@@ -156,6 +156,7 @@ if not DEBUG:
 if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
+    STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
 
 # DATABASE設定
 #   - 本番環境のDB設定を利用
