@@ -1,6 +1,4 @@
 data/db
 config/local_settings.py
+logs/django.log
 staticfiles
-jobflows/migrations/0*
-accounts/migrations/0*
-jobflows/migrations/0*
