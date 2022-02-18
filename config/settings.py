@@ -147,8 +147,8 @@ except ImportError:
 # SECRET_KEY設定
 #   - 本番サーバのKEYを利用
 
-if not DEBUG:
-    SECRET_KEY = os.environ['SECRET_KEY']
+
+SECRET_KEY = 'django-insecure-c**bfbq@f9abn)2)n#n&gn61i&(+sb=199px5j$gs)xw)9_tnc'
 
 
 # HEROKU設定
