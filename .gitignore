@@ -1,3 +1,6 @@
 data/db
 config/local_settings.py
 staticfiles
+jobflows/migrations/0*
+accounts/migrations/0*
+jobflows/migrations/0*

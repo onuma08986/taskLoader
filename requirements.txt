@@ -5,3 +5,6 @@ psycopg2-binary
 django_heroku
 gunicorn
 whitenoise
+pillow==8.4.0
+requests==2.26.0
+apscheduler==3.8.1 
