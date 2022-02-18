@@ -150,15 +150,14 @@ if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
 
 
-# DATABASE設定
-#   - 本番環境のDB設定を利用
-
-db_from_env = dj_database_url.config(conn_max_age=600, ssl_require=True)
-DATABASES['default'].update(db_from_env)
-
-
 # HEROKU設定
 
 if not DEBUG:
     import django_heroku
     django_heroku.settings(locals())
+
+# DATABASE設定
+#   - 本番環境のDB設定を利用
+
+db_from_env = dj_database_url.config(conn_max_age=600, ssl_require=True)
+DATABASES['default'].update(db_from_env)
